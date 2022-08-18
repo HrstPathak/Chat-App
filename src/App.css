@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#8e2de2, #4a00e0);
+  background-color: aquamarine;
+  height: 100vh;
+}
+.appbody {
+  margin: auto;
+  display: flex;
+  background-image: url("https://cdn.dribbble.com/users/1003944/screenshots/15741863/06_comp_1_4x.gif?compress=1&resize=400x300");
+  background-color: #fff;
+  width: 90%;
+  height: 90%;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 1);
+}
+@media screen and (max-width: 650px) {
+  .appbody {
+    width: 100%;
+    height: 100%;
+  }
+}

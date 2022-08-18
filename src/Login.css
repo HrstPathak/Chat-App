@@ -1,0 +1,125 @@
+/* .outer_container {
+  background: linear-gradient(to right, #232526, #414345);
+} */
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 3rem;
+  box-shadow: 1px 1px 30px #1d976c;
+  padding: 1.3rem 2rem;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+}
+.LoginPage_header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.LoginPage_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.sign_div_1 {
+  border: 3px solid;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  width: 20rem;
+  transition: all;
+  transition-duration: 1s;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.google {
+  border-color: #4285f4 #34a653 #fbbc05 #ea4335;
+}
+.facebook {
+  border-color: blue;
+}
+.facebook .fbicon {
+  color: blue;
+  transition: all;
+  transition-duration: 1s;
+}
+.email {
+  border-color: gold;
+}
+.email .emailicon {
+  color: gold;
+  transition: all;
+  transition-duration: 1s;
+}
+.google:hover {
+  box-shadow: 1px 1px 5px black;
+  border-color: green blue red yellow;
+  background-color: #fff;
+}
+.facebook:hover {
+  color: white;
+  background-color: blue;
+  box-shadow: 1px 1px 5px black;
+}
+.github:hover {
+  background-color: black;
+  box-shadow: 1px 1px 5px black;
+  color: white;
+}
+.email:hover {
+  color: black;
+  background-color: gold;
+  box-shadow: 1px 1px 5px black;
+}
+.email:hover .emailicon {
+  color: black;
+}
+.facebook:hover .fbicon {
+  color: white;
+}
+.icon {
+  font-size: x-large;
+}
+
+.create-div {
+  letter-spacing: 2px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.create-div:hover {
+  text-shadow: 1px 1px 5px white;
+}
+.inner_header_div_ {
+  background-color: black;
+  display: flex;
+  /* width: 100%; */
+  flex-direction: row;
+  align-items: center;
+  /* flex: 1; */
+  color: lightgreen;
+  text-decoration: none;
+  justify-content: center;
+}
+.Header_name_div_ {
+  color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .sign_div_1 {
+    padding: 0.5rem;
+    width: 16rem;
+  }
+  .LoginPage {
+    margin-top: 3rem;
+  }
+}
