@@ -1,4 +1,4 @@
-web chat app able to send and receive message
+A real time chat app. Able to send and receive message and to create channel msg and channel create is visible to all the users.
 
 ![Screenshot (58)](https://user-images.githubusercontent.com/89193946/185306845-091de720-98dd-4742-996c-bb962a736afe.png)
 
